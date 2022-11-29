@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/11/2022, 09:49:24 AM
+    Author     : Edwin
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: "Poppins" , sans-serif;
+}
+.title{
+    text-align: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 1%;
+    border-radius: 10px
+}
+.pdf-cont{
+    display: flex;
+    margin-bottom: 3em;
+    flex-direction: column;
+}
+
+.btn-pdf{
+    border: none;
+    padding: 0.5em;
+    width: 30%;
+    font-weight: 600px;
+    border-radius: 10px; 
+    background: #130f40;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-pdf:hover{
+    background: #e67e22;
+    transition: all 0.5s ease;
+}
+select{    
+    box-shadow: 0px 3px 0px #e67e22;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 38px;
+    border: 3px solid transparent;
+}
+
+/*.pdf{
+    background: palevioletred
+}*/
+
+tr:hover {background-color: gray;}
+
+.btn-new{
+    display: flex;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px ;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #fff;
+    background: #130f40; 
+    justify-content: center;
+}
+.btn-new:hover{
+    background: #e67e22;
+    transition: .3s;
+}
+
+.btn-update{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    background: orange; 
+}
+
+.btn-delete{
+    border: none;
+    padding: 0.5em;
+    width: 30%;
+    font-weight: 600px;
+    border-radius: 10px; 
+    background: #130f40;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    background: red; 
+}
+@media (min-width: 420px) {
+  .container, .container-sm {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+
